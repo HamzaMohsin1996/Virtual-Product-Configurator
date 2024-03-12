@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Virtual Product Configurator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Virtual Product Configurator is a web application that allows users to explore and customize 3D models of various products. The application currently showcases three products: Mercedes-Benz S-Class, Mercedes G-Wagon, and customizable shoes. Users can interact with the 3D models, rotate them, and customize their colors based on personal preferences.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This application enables users to visualize and personalize 3D models of different products. It features an intuitive user interface with a header containing links to each product, facilitating easy navigation between them. Users can interact with the 3D models by rotating them and adjusting the colors of various components to explore different customization options.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js: Frontend framework for building the user interface
+- Three.js: Library for creating and displaying 3D graphics in the browser
+- react-three-fiber: React renderer for Three.js
+- react-colorful: Color picker component for selecting colors
+- Valtio: Library for state management
+- react-router-dom: Library for routing within the application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd virtual-product-configurator`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the application
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Click on the header links to navigate between the different products.
+- Use your mouse or touchpad to rotate the 3D models.
+- Click on specific parts of the models to customize their colors using the color picker.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
+- Fork the repository
+- Create a new branch: `git checkout -b feature-name`
+- Make your changes and commit them: `git commit -m 'Add new feature'`
+- Push to the branch: `git push origin feature-name`
+- Submit a pull request detailing your changes
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the [MIT License](LICENSE).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project was inspired by the need for interactive 3D product configurators in e-commerce.
+- Special thanks to the developers of the libraries and tools used in this project for their contributions to the open-source community.
