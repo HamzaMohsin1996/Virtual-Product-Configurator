@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Virtual-Product-Configurator/static/css/main.d91d9187.css",
+    "main.js": "/Virtual-Product-Configurator/static/js/main.a9e0caff.js",
+    "static/js/453.90f024b0.chunk.js": "/Virtual-Product-Configurator/static/js/453.90f024b0.chunk.js",
+    "index.html": "/Virtual-Product-Configurator/index.html",
+    "main.d91d9187.css.map": "/Virtual-Product-Configurator/static/css/main.d91d9187.css.map",
+    "main.a9e0caff.js.map": "/Virtual-Product-Configurator/static/js/main.a9e0caff.js.map",
+    "453.90f024b0.chunk.js.map": "/Virtual-Product-Configurator/static/js/453.90f024b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d91d9187.css",
+    "static/js/main.a9e0caff.js"
+  ]
+}
